@@ -1,7 +1,9 @@
 let currentDate = new Date();
-let startPromo = new Date("2022/01/27 10:40:00")
-let finishPromo = new Date("2022/01/27 11:00:00")
+let startPromo = new Date("2022/01/27 12:23:00")
+let finishPromo = new Date("2022/01/27 12:40:00")
+let redirectionUrl = "https://fundacion-kunphen.webflow.io/proyectos";
 
 if (currentDate > startPromo && currentDate < finishPromo){
-  window.location.replace("http://stackoverflow.com");
+  console.log("redirectionUrl");
+  window.location.replace(redirectionUrl);
 }
