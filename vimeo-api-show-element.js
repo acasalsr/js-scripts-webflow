@@ -1,6 +1,8 @@
+//Posar després de </body>
+
 <script src="https://player.vimeo.com/api/player.js"></script>;
 //<script>
-const iframe = document.querySelector(".vimeo-cc-desktop"); //.vimeo-cc-desktop -> modificar nom classe del embed de vimeo
+const iframe = document.querySelector('iframe'); //.vimeo-cc-desktop -> modificar nom classe del embed de vimeo
 const player = new Vimeo.Player(iframe);
 var refreshIntervalId = setInterval(function () {
   player
